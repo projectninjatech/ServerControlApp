@@ -29,9 +29,9 @@ const ServerSetupScreen = (props) => {
             const serverResponse = await fetch(`${serverIP}/checkServer`)
 
             if (serverResponse.status === 200) {
-                return 200; // Server is online
+                return 200;
             } else {
-                return 500; // Server is online, but with an unexpected status code
+                return 500;
             }
 
         } catch (error) {
