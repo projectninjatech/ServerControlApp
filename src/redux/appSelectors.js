@@ -1,0 +1,1 @@
+export const selectLogoutStatus = (state) => state.appReducer.logoutStatus;
